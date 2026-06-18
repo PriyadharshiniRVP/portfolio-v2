@@ -23,7 +23,7 @@ A personal portfolio website built using React and Vite.
 Clone the repository:
 
 ```bash
-git clone <https://github.com/PriyadharshiniRVP/portfolio-v2>
+git clone https://github.com/PriyadharshiniRVP/portfolio-v2
 ```
 
 Install dependencies:
