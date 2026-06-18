@@ -1,9 +1,9 @@
 function Footer(){
     return(
 
-<div>
+<div className="foot" id="foot">
         <p>Built by Priyadharshini R</p>
-        <p><a href="https://www.gazijarin.com/">reference</a></p>
+        <p><a href="https://www.gazijarin.com/" className="ref">reference</a></p>
         </div>
 
     );
