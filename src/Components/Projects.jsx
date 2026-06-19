@@ -1,5 +1,6 @@
 
 import github from '../assets/github.png'
+import web from '../assets/weblink.png'
 function Projects(){
     return(
     <section className="projects" id="projects"  data-aos="fade-up">
@@ -9,6 +10,7 @@ function Projects(){
     <div className="project-header">
         <h4 className='project-name'>Personal Portfolio Website</h4>
         <a href="https://github.com/PriyadharshiniRVP/portfolio-v2"><img src={github} className='sm'/></a>
+        <a href="https://priyar-phi.vercel.app/" ><img src={web} className='sm'/></a>
     </div>
 
     <ul>
@@ -26,6 +28,7 @@ function Projects(){
             <div className="project-header">
                 <h4 className='project-name'>Id Card Generator System</h4>
                 <a href="https://github.com/PriyadharshiniRVP/idcardgen"><img src={github} className='sm'/></a>
+                
             </div>
             <ul>
                 <li> Built a Spring Boot REST API backend to automate student record management and ID card generation in under
