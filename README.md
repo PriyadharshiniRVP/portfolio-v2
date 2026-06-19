@@ -40,6 +40,8 @@ npm run dev
 
 ## Live Demo
 
+[priya.com](https://priyar-phi.vercel.app/)
+
 
 
 ## Author
