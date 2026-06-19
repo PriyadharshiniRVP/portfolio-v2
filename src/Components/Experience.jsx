@@ -3,7 +3,7 @@ function Experience(){
 
     return(
         
-        <section className="experience" id="experience">
+        <section className="experience" id="experience"  data-aos="fade-up">
             <h2>experience/</h2>
 
             <h4>Software Engineer Intern - <span className="infosys">Infosys Springboard</span></h4>

@@ -3,7 +3,7 @@
 function About(){
      const tech=["Java","Python","Springboot","Django","React"]   
     return(
-        <section className="about" id="about">
+        <section className="about" id="about" data-aos="fade-up">
             <h2>about me/</h2>
            
             <p>I am a Computer Science Graduate who loves to solve problems and make the work efficient with the help of technology.I have solved 250+ Problems in Leetcode. I am passionate about Software Development.
@@ -13,8 +13,9 @@ function About(){
            
             <div className="skills">
                 {
-                    tech.map((skill)=>(
-                        <span key={skill} className="skillname">{skill}</span>
+                    tech.map((skill,index)=>(
+                        <span key={skill} className="skillname" data-aos="zoom-in"
+                        data-aos-delay={index * 200}>{skill}</span>
                     )
                 )
                 }
