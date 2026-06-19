@@ -7,7 +7,7 @@ A personal portfolio website built using React and Vite.
 - About Me section
 - Experience section
 - Projects showcase
-- Responsive design (coming soon)
+- Responsive design
 - Clean UI
 
 ## Tech Stack
@@ -39,6 +39,8 @@ npm run dev
 ```
 
 ## Live Demo
+
+[priya.com](https://priyar-phi.vercel.app/)
 
 
 
