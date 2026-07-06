@@ -1,29 +1,45 @@
+function About() {
+  const tech = ["Python", "FastAPI", "Django", "React", "Java", "Spring Boot", "AWS", "PostgreSQL"]
 
+  return (
+    <section className="about" id="about" data-aos="fade-up">
+      <div className="about-header">
+        <h2>about me/</h2>
+        <p className="about-subtitle">Passionate about building impactful solutions</p>
+      </div>
 
-function About(){
-     const tech=["Java","Python","Springboot","Django","React"]   
-    return(
-        <section className="about" id="about" data-aos="fade-up">
-            <h2>about me/</h2>
-           
-            <p>I am Priyadharshini I am a Computer Science Graduate who loves to solve problems and make the work efficient with the help of technology.I have solved 250+ Problems in Leetcode. I am passionate about Software Development.
-                I love to build cute little things using the techstacks I know.</p>
+      <div className="about-content">
+        <p>
+          I am Priyadharshini, a Computer Science graduate who thrives on solving 
+          complex problems and making workflows more efficient through technology. 
+          With over 250+ problems solved on LeetCode, I bring a strong analytical 
+          mindset to every project I undertake.
+        </p>
+        <p>
+          I am passionate about full-stack development, AI, and cybersecurity. 
+          I love building solutions that not only work but also make a difference — 
+          whether it's automating manual processes, detecting cyber threats, or 
+          creating emotion-aware developer tools.
+        </p>
+      </div>
 
-            <h3>Technologies I am working with:</h3> 
-           
-            <div className="skills">
-                {
-                    tech.map((skill,index)=>(
-                        <span key={skill} className="skillname" data-aos="zoom-in"
-                        data-aos-delay={index * 200}>{skill}</span>
-                    )
-                )
-                }
-
-            </div>
-            
-        </section>
-    )
+      <div className="skills-section">
+        <h3 className="skills-title">Technologies I work with</h3>
+        <div className="skills-grid">
+          {tech.map((skill, index) => (
+            <span
+              key={skill}
+              className="skillname"
+              data-aos="zoom-in"
+              data-aos-delay={index * 100}
+            >
+              {skill}
+            </span>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
 }
 
 export default About

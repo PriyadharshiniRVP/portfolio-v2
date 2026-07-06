@@ -10,6 +10,7 @@ import Experience from './Components/Experience'
 import Projects from './Components/Projects'
 import Navbar from './Components/Navbar'
 import Social from './Components/Socials'
+import Articles from './Components/Articles'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react'
@@ -25,11 +26,11 @@ function App() {
   return(
     <>
     <Navbar/>
-    <Social/>
     <Hero/>
     <About/>
     <Experience/>
     <Projects/>
+    <Articles/>
     <Footer/>
      
      
