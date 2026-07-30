@@ -50,6 +50,21 @@ function Projects() {
       github: "https://github.com/PriyadharshiniRVP/InventoryandBillingSystem",
       live: null,
       badge: "Client Project"
+    },
+    {
+      id:4,
+      name:"Id Card Generator",
+      description: "A web-based application for managing student records and generating ID cards. The system allows administrators to perform CRUD operations on student data and maintain records in a PostgreSQL database.",
+      tech:["Java","Springboot","PostgreSQL","HTML","CSS"],
+      highlights:[
+        "Designed and Developed a springboot application with CRUD Features",
+        "Used PostgreSQL to store the database and implemented the database design",
+        "Main features include adding,deleting and updating the student records with generating id cards"
+      ],
+      github:"https://github.com/PriyadharshiniRVP/idcardgen",
+      live:null,
+      badge:"Fun Project"
+    
     }
   ];
 
