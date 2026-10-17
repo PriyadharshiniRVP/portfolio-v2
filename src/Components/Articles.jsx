@@ -1,7 +1,24 @@
 function Articles() {
   const articles = [
     {
-      id: 1,
+      id : 1 ,
+      title : "The Database I Never knew it Exists",
+      platform : "Medium",
+      date : "October 2026",
+      readTime : "11 min read",
+      link : "https://medium.com/@priyarama2209/the-database-i-never-knew-it-exist-78a5851ef3ad",
+      github : "https://github.com/PriyadharshiniRVP/onboard-brain",
+      tech : ["Falkor-DB" , "Python" , "Graph DataBase"],
+      description : "An AI agent that answers onboarding questions about a company — and shows you the exact graph query behind every answer.",
+      badge : "Hackathon Project",
+      highlights : [
+        "No Knowledge about Graph database but ended up building a small system",
+        "How to learn a tech stack in a weekend",
+        "funny moments I encountered"
+      ]
+    },
+    {
+      id: 2,
       title: "Building an AI SOC Copilot That Never Forgets",
       platform: "Medium",
       date: "July 2026",
@@ -18,7 +35,7 @@ function Articles() {
       ]
     },
     {
-      id: 2,
+      id: 3,
       title: "Building CodeBuddy: An Emotion-Aware Developer Assistant Powered by Amazon Nova",
       platform: "AWS Builder Center",
       date: "March 2026",
@@ -34,6 +51,7 @@ function Articles() {
         "Combined behavioral and visual signals for reliable emotion detection"
       ]
     }
+    
   ];
 
   return (
