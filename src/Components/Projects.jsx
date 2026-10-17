@@ -7,20 +7,22 @@ function Projects() {
 
   const projects = [
     {
-      id: 1,
-      name: "SOC Memory Copilot",
-      description: "AI-powered cybersecurity assistant with persistent memory that remembers past investigations, connects related incidents, and becomes smarter over time using Cognee's hybrid graph-vector memory layer.",
-      tech: ["React", "MongoDB", "Cognee", "Python", "Threat Intelligence APIs"],
-      highlights: [
-        "Built persistent memory layer for cybersecurity investigations using Cognee",
-        "Integrated graph-vector memory with remember() and recall() operations",
-        "Developed React dashboard with real-time alert monitoring and investigation history",
-        "Connected multiple threat intelligence APIs for comprehensive threat analysis"
+      id : 1,
+      name : "LRU-Cache Service",
+      description : "A from-scratch implementation of an LRU (Least Recently Used) cache in Python, exposed as a REST API using FastAPI.",
+      tech : ["python", "FastAPI","PyTest"],
+      highlights : [
+        "Demonstrates understanding of a classic data structures like doubly linked list and hashmap.",
+        "Shows how to expose a data structure as a service via a REST API.",
+        "Benchmarks hit/miss rate to measure cache effectiveness."
       ],
-      github: "https://github.com/PriyadharshiniRVP/soc-memory-copilot",
-      live: null,
-      badge: "Hackathon Project"
-    },
+      github : "https://github.com/PriyadharshiniRVP/lru-cache",
+      live : "https://lru-cache-sakg.onrender.com/docs",
+      badge : "DSA"
+
+
+    }
+    ,
     {
       id: 2,
       name: "CodeBuddy: Emotion-Aware Developer Assistant",
@@ -35,37 +37,8 @@ function Projects() {
       github: "https://github.com/PriyadharshiniRVP/CSE-2022-26-Batch38",
       live: null,
       badge: "AWS Builder Center"
-    },
-    {
-      id: 3,
-      name: "Inventory Management System",
-      description: "Django-based inventory and billing system with FIFO stock tracking and automated invoice generation. Reduced client's daily operational effort from 4 hours to 30 minutes.",
-      tech: ["Python", "Django", "MySQL", "HTML", "CSS"],
-      highlights: [
-        "Designed and built Django backend with MySQL database for inventory tracking",
-        "Implemented FIFO (First-In-First-Out) stock tracking logic",
-        "Automated invoice generation for real interior design client",
-        "Reduced operational time from 4 hours to 30 minutes daily"
-      ],
-      github: "https://github.com/PriyadharshiniRVP/InventoryandBillingSystem",
-      live: null,
-      badge: "Client Project"
-    },
-    {
-      id:4,
-      name:"Id Card Generator",
-      description: "A web-based application for managing student records and generating ID cards. The system allows administrators to perform CRUD operations on student data and maintain records in a PostgreSQL database.",
-      tech:["Java","Springboot","PostgreSQL","HTML","CSS"],
-      highlights:[
-        "Designed and Developed a springboot application with CRUD Features",
-        "Used PostgreSQL to store the database and implemented the database design",
-        "Main features include adding,deleting and updating the student records with generating id cards"
-      ],
-      github:"https://github.com/PriyadharshiniRVP/idcardgen",
-      live:null,
-      badge:"Fun Project"
-    
     }
+    
   ];
 
   const totalSlides = projects.length;
