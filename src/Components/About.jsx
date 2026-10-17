@@ -1,5 +1,5 @@
 function About() {
-  const tech = ["Python", "FastAPI", "Django", "React", "Java", "Spring Boot", "AWS", "PostgreSQL"]
+  const tech = ["Python", "FastAPI", "React", "Java",  "SQL"]
 
   return (
     <section className="about" id="about" data-aos="fade-up">
